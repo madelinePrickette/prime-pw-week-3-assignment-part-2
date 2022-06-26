@@ -60,7 +60,8 @@ console.log('Some stars using while:');
 while(i < stars.length) {
   console.log(stars[i]);
   i++;
-}
+}// stars.length allows us to iterate through each object in the entire array. then we console log
+ // each object at i, that current iteration. Increamenting i is written next.
 
 // 3.b. TODO: Write a while loop to console.log the numbers from 0 to 5
 console.log('count from 0 to 5');
@@ -68,7 +69,7 @@ let count = 0;
 while(count < 6){
   console.log(count)
   count++;
-}
+}// starting count at 0, log each iteration counting up by 1 until 6 is reached.
 
 // 3.c. TODO: Write a while loop to console.log the numbers from 10 to 5
 console.log('count backwards from 10 to 5');
@@ -76,4 +77,5 @@ count = 10;
 while(count > 4) {
   console.log(count);
   count--;
-}
+}// start count at 10, log each count iteration as count is decremented by 1 until it reaches 4,
+ // where it stops and jumps out of the loop.
