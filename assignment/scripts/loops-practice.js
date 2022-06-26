@@ -57,6 +57,7 @@ console.log('---- 3. While loop ----');
 
 // 3.a. TODO: Write a while loop to console.log each star in the 'stars' array
 console.log('Some stars using while:');
+console.log('I dont know why I am getting undefined before my log of stars, if I could please racieve some notes on it?')
 while(i < stars.length) {
   console.log(stars[i]);
   i++;
